@@ -1,0 +1,19 @@
+# Core dependencies
+streamlit==1.39.0
+pandas==2.2.2
+torch>=2.1.0
+torchaudio>=2.1.0
+numpy>=1.24.0
+
+# OpenAI Whisper (official GitHub release for full load_model support)
+git+https://github.com/openai/whisper.git@main#egg=whisper
+
+# Audio and video handling
+ffmpeg-python==0.2.0
+
+# Optional utilities for progress bars & JSON prettifying
+tqdm==4.66.4
+setuptools-rust>=1.8.0
+
+# Ensure smooth tokenization and model compatibility
+tiktoken>=0.5.1
